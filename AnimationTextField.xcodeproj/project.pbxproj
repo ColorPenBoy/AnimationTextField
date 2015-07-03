@@ -14,6 +14,7 @@
 		8E88FDE11B466FB200E3118D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E88FDE01B466FB200E3118D /* Images.xcassets */; };
 		8E88FDE41B466FB200E3118D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E88FDE21B466FB200E3118D /* LaunchScreen.xib */; };
 		8E88FDF01B466FB200E3118D /* AnimationTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E88FDEF1B466FB200E3118D /* AnimationTextFieldTests.m */; };
+		8E88FDFB1B466FFD00E3118D /* AnimationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E88FDFA1B466FFD00E3118D /* AnimationTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8E88FDE91B466FB200E3118D /* AnimationTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E88FDEE1B466FB200E3118D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E88FDEF1B466FB200E3118D /* AnimationTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTextFieldTests.m; sourceTree = "<group>"; };
+		8E88FDF91B466FFD00E3118D /* AnimationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTextField.h; sourceTree = "<group>"; };
+		8E88FDFA1B466FFD00E3118D /* AnimationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				8E88FDD81B466FB200E3118D /* AppDelegate.m */,
 				8E88FDDA1B466FB200E3118D /* ViewController.h */,
 				8E88FDDB1B466FB200E3118D /* ViewController.m */,
+				8E88FDF91B466FFD00E3118D /* AnimationTextField.h */,
+				8E88FDFA1B466FFD00E3118D /* AnimationTextField.m */,
 				8E88FDDD1B466FB200E3118D /* Main.storyboard */,
 				8E88FDE01B466FB200E3118D /* Images.xcassets */,
 				8E88FDE21B466FB200E3118D /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E88FDFB1B466FFD00E3118D /* AnimationTextField.m in Sources */,
 				8E88FDDC1B466FB200E3118D /* ViewController.m in Sources */,
 				8E88FDD91B466FB200E3118D /* AppDelegate.m in Sources */,
 				8E88FDD61B466FB200E3118D /* main.m in Sources */,
